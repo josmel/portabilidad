@@ -1,0 +1,34 @@
+<h3 class="admin-title">(SP) Historial de Solicitud Portabilidad</h3>
+<?php $this->getMesseger();?>
+<div class="ctn-back">
+    <a title="Volver al listado de Solicitudes al Cedente" href="/esc">« Volver al listado de Solicitudes al Cedente</a>
+</div>
+
+<?php  if(isset($this->Spr)) { ?>
+<div class="frm-panel">
+    <div class="frm-head">
+        <h2><span class="icTable"></span>Detalle Solicitud de Portabilidad Cedente  (SPR)</h2>
+        <?php  if(!isset($this->pep)) { ?>
+       <a class="btn-admin" title="fecha limite de programación: <?php echo $this->Spr['FechaLimiteProgramacionPortabilidad']; ?>" href="/sp/schedule?id=<?php echo $this->ans['idtAns']; ?>">Programación de Portabilidad</a>
+        <?php } ?>
+    </div>
+     <table id="datatable" class="display dataTable" cellspacing="0" cellpadding="0" border="0" aria-describedby="datatable_info">
+       <thead>
+            <tr>
+                <th>IdentificadorProceso</th>
+                <th>FechaLimiteProgramacionPortabilidad</th>
+                <th>FechaLimiteEjecucionPortabilidad</th>
+                <th>FechaReferenciaABDCP</th>
+            </tr>
+             <tr>
+                <td><?php echo $this->Spr['IdentificadorProceso']; ?></td>
+                <td><?php echo $this->Spr['FechaLimiteProgramacionPortabilidad']; ?></td>
+                <td><?php echo $this->Spr['FechaLimiteEjecucionPortabilidad']; ?></td>
+                <td><?php echo $this->Spr['FechaReferenciaABDCP']; ?></td>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+<?php } ?>

@@ -1,0 +1,11 @@
+
+Fatal error: Using $this when not in object context in /var/www/portabilidad/source/application/cron/Rcp.php on line 7
+
+Fatal error: Using $this when not in object context in /var/www/portabilidad/source/application/cron/Rcp.php on line 8
+
+Notice: Undefined property: App_Controller_Action_Helper_GetResultSoap::$_clienteCip in /var/www/portabilidad/source/library/App/Controller/Action/Helper/GetResultSoap.php on line 25
+
+Fatal error: Call to a member function receiveMessage() on a non-object in /var/www/portabilidad/source/library/App/Controller/Action/Helper/GetResultSoap.php on line 25
+no hay registro en el ecpcno hay registro en el ecpcno hay registro en el ecpcno hay registro en el ecpcno hay registro en el ecpcno hay registro en el ecpcno hay registro en el ecpcno hay registro en el ecpcno hay registro en el ecpcno hay registro en el ecpcno hay registro en el ecpcno hay registro en el ecpcno hay registro en el ecpcno hay registro en el ecpcno hay registro en el ecpc
+Fatal error: Class 'App_Controller_Action_Helper_GetResultSoap' not found in /var/www/portabilidad/source/application/cron/Rcp.php on line 6
+no hay registro en el ecpcno hay registro en el ecpc

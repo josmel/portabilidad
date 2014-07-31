@@ -1,0 +1,77 @@
+<h3 class="admin-title">(CP) Historial de Consulta Previa</h3>
+<?php $this->getMesseger();?>
+<div class="ctn-back">
+    <a title="Volver al listado de Blogs" href="/cp">« Volver al listado de Cosultas Previas</a>
+</div>
+<div class="frm-panel">
+    <div class="frm-head">
+        <h2><span class="icTable"></span>Detalle Asignación de Número de Consulta Previa (ANCP)</h2>
+    </div>
+    <table id="datatable" class="display dataTable" cellspacing="0" cellpadding="0" border="0" aria-describedby="datatable_info">
+        <thead>
+            <tr>
+                <th>IdentificacionSolicitud</th>
+                <th>FechaRecepcionMensajeAnterior</th>
+                <th>FechaReferenciaABDCP</th>
+                <th>Numeracion</th>
+            </tr>
+            <tr>
+                <td><?php echo $this->ancp['IdentificacionSolicitud']; ?></td>
+                <td><?php echo $this->ancp['FechaRecepcionMensajeAnterior']; ?></td>
+                <td><?php echo $this->ancp['FechaReferenciaABDCP']; ?></td>
+                <td><?php echo $this->ancp['Numeracion']; ?></td>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+<br><br>
+<?php  if(isset($this->cprabd)) { ?>
+<div class="frm-panel">
+    <div class="frm-head">
+        <h2><span class="icTable"></span>Detalle Consulta Previa Rechazada por el ABDCP (CPRABD)</h2>
+    </div>
+     <table id="datatable" class="display dataTable" cellspacing="0" cellpadding="0" border="0" aria-describedby="datatable_info">
+       <thead>
+            <tr>
+                <th>IdentificacionSolicitud</th>
+                <th>CausaRechazo</th>
+                <th>Numeracion</th>
+            </tr>
+             <tr>
+                <td><?php echo $this->cprabd['IdentificacionSolicitud']; ?></td>
+                <td><?php echo $this->cprabd['CausaRechazo']; ?></td>
+                <td><?php echo $this->cprabd['Numeracion']; ?></td>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+<br><br>
+<?php } ?>
+<?php  if(isset($this->cppr)) { ?>
+<div class="frm-panel">
+    <div class="frm-head">
+        <h2><span class="icTable"></span>Detalle Consulta Previa Procedente (CPPR)</h2>
+        <a class="btn-admin" title="Consultar Nuevo" href="/sp/new?id=<?php echo $this->ancp['idcp']; ?>">Solicitud de Portabilidad</a>
+    </div>
+     <table id="datatable" class="display dataTable" cellspacing="0" cellpadding="0" border="0" aria-describedby="datatable_info">
+       <thead>
+            <tr>
+                <th>IdentificadorProceso</th>
+                <th>NumeroConsultaPrevia</th>
+                <th>FechaCreacionMensaje</th>
+            </tr>
+             <tr>
+                <td><?php echo $this->cppr['IdentificadorProceso']; ?></td>
+                <td><?php echo $this->cppr['NumeroConsultaPrevia']; ?></td>
+                <td><?php echo $this->cppr['FechaCreacionMensaje']; ?></td>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+<?php } ?>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:ns1="http://ws.inpac.telcordia.com"><env:Body><ns1:receiveMessageRequest><ns1:userID>59u1</ns1:userID><ns1:password>UDU5dTE=</ns1:password><ns1:xmlMsg>&lt;MensajeABDCP xsi:noNamespaceSchemaLocation="SP.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;&#13;
+                           &lt;CabeceraMensaje&gt;             &#13;
+                                   &lt;IdentificadorMensaje&gt;59201407173926744&lt;/IdentificadorMensaje&gt;&#13;
+                                   &lt;Remitente&gt;59&lt;/Remitente&gt;&#13;
+                                   &lt;Destinatario&gt;00&lt;/Destinatario&gt;&#13;
+                                   &lt;FechaCreacionMensaje&gt;20140717185407&lt;/FechaCreacionMensaje&gt;&#13;
+                                   &lt;IdentificadorProceso&gt;59201407170527404&lt;/IdentificadorProceso&gt;&#13;
+                           &lt;/CabeceraMensaje&gt;&#13;
+                   &lt;CuerpoMensaje IdMensaje="CP"&gt;&#13;
+                        &lt;ConsultaPrevia&gt;&#13;
+                            &lt;CodigoReceptor&gt;59&lt;/CodigoReceptor&gt;&#13;
+                            &lt;CodigoCedente&gt;fe&lt;/CodigoCedente&gt;&#13;
+                            &lt;TipoDocumentoIdentidad&gt;fef&lt;/TipoDocumentoIdentidad&gt;&#13;
+                            &lt;NumeroDocumentoIdentidad&gt;efnj&lt;/NumeroDocumentoIdentidad&gt;&#13;
+                            &lt;CantidadNumeraciones&gt;fef&lt;/CantidadNumeraciones&gt;&#13;
+                            &lt;NumeracionSolicitada&gt;&#13;
+                                  &lt;RangoNumeracion&gt;&#13;
+                                    &lt;InicioRango&gt;jh&lt;/InicioRango&gt;&#13;
+                                    &lt;FinalRango&gt;jh&lt;/FinalRango&gt;&#13;
+                                    &lt;TipoPortabilidad&gt;01&lt;/TipoPortabilidad&gt;&#13;
+                                  &lt;/RangoNumeracion&gt;&#13;
+                            &lt;/NumeracionSolicitada&gt;&#13;
+                            &lt;Observaciones&gt;&lt;/Observaciones&gt;&#13;
+                            &lt;NombreContacto&gt;h&lt;/NombreContacto&gt;&#13;
+                            &lt;EmailContacto&gt;ju&lt;/EmailContacto&gt;&#13;
+                            &lt;TelefonoContacto&gt;h&lt;/TelefonoContacto&gt;&#13;
+                            &lt;FaxContacto&gt;jh&lt;/FaxContacto&gt;&#13;
+                            &lt;TipoServicio&gt;i&lt;/TipoServicio&gt;&#13;
+                            &lt;Cliente&gt;hi&lt;/Cliente&gt;&#13;
+                        &lt;/ConsultaPrevia&gt;&#13;
+                    &lt;/CuerpoMensaje&gt;&#13;
+                &lt;/MensajeABDCP&gt;</ns1:xmlMsg></ns1:receiveMessageRequest></env:Body></env:Envelope>

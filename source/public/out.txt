@@ -1,0 +1,2 @@
+Could not open input file: archivo.php
+Could not open input file: archivo.php

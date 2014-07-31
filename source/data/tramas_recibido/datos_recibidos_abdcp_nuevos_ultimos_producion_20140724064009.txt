@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:ns1="http://ws.inpac.telcordia.com"><env:Body><ns1:receiveMessageRequest><ns1:userID>59sbarrantes</ns1:userID><ns1:password>am9yZGFuMjM=</ns1:password><ns1:xmlMsg>&lt;MensajeABDCP xsi:noNamespaceSchemaLocation="SP.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;&#13;
+                           &lt;CabeceraMensaje&gt;             &#13;
+                                   &lt;IdentificadorMensaje&gt;59201407249299705&lt;/IdentificadorMensaje&gt;&#13;
+                                   &lt;Remitente&gt;59&lt;/Remitente&gt;&#13;
+                                   &lt;Destinatario&gt;00&lt;/Destinatario&gt;&#13;
+                                   &lt;FechaCreacionMensaje&gt;20140724184008&lt;/FechaCreacionMensaje&gt;&#13;
+                                   &lt;IdentificadorProceso&gt;123456&lt;/IdentificadorProceso&gt;&#13;
+                           &lt;/CabeceraMensaje&gt; &#13;
+                   &lt;CuerpoMensaje IdMensaje="CPOCC"&gt;&#13;
+                        &lt;ConsultaPreviaObjecionConcesionarioCedente&gt;&#13;
+                                &lt;CausaObjecion&gt;REC01PRT08&lt;/CausaObjecion&gt;&#13;
+                                &lt;Numeracion&gt;729 9991&lt;/Numeracion&gt;&#13;
+                        &lt;/ConsultaPreviaObjecionConcesionarioCedente&gt;&#13;
+                   &lt;/CuerpoMensaje&gt;&#13;
+                &lt;/MensajeABDCP&gt;</ns1:xmlMsg></ns1:receiveMessageRequest></env:Body></env:Envelope>

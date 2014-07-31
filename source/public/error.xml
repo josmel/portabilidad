@@ -1,0 +1,7 @@
+--MIMEBoundary_80268179ce4afebdfd8a7f1464c5599ef6c7e5291a3e9c7e
+Content-Type: application/xop+xml; charset=utf-8; type="application/soap+xml"
+Content-Transfer-Encoding: binary
+Content-ID: <0.90268179ce4afebdfd8a7f1464c5599ef6c7e5291a3e9c7e@apache.org>
+
+<?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope"><soapenv:Body><ns1:receiveMessageResponse xmlns:ns1="http://ws.inpac.telcordia.com"><ns1:response>ERRSOAP012 : El formato del mensaje no cumple con el Esquema XML</ns1:response></ns1:receiveMessageResponse></soapenv:Body></soapenv:Envelope>
+--MIMEBoundary_80268179ce4afebdfd8a7f1464c5599ef6c7e5291a3e9c7e--

@@ -1,0 +1,3 @@
+userID: sws, password: swsws, xmlMsg: swswsw
+userID: sws, password: swsws, xmlMsg: swswsw
+userID: ?, password: ?, xmlMsg: ?

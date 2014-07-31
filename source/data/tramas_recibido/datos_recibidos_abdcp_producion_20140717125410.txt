@@ -1,0 +1,22 @@
+stdClass Object
+(
+    [userID] => 59u1
+    [password] => UDU5dTE=
+    [xmlMsg] => <MensajeABDCP xsi:noNamespaceSchemaLocation="SP.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                           <CabeceraMensaje>             
+                                   <IdentificadorMensaje>59201407178640399</IdentificadorMensaje>
+                                   <Remitente>59</Remitente>
+                                   <Destinatario>00</Destinatario>
+                                   <FechaCreacionMensaje>20140717125409</FechaCreacionMensaje>
+                                   <IdentificadorProceso>59201407170527404</IdentificadorProceso>
+                           </CabeceraMensaje>
+                   <CuerpoMensaje IdMensaje="ANCP">
+        <AsignacionNumeroConsultaPrevia>
+            <IdentificacionSolicitud>59201407160507191</IdentificacionSolicitud>
+            <FechaRecepcionMensajeAnterior>20140716184952</FechaRecepcionMensajeAnterior>
+            <FechaReferenciaABDCP>20140716184957</FechaReferenciaABDCP>
+            <Numeracion>17200881</Numeracion>
+        </AsignacionNumeroConsultaPrevia>
+    </CuerpoMensaje>
+                </MensajeABDCP>
+)

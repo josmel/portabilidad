@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:ns1="http://ws.inpac.telcordia.com"><env:Body><ns1:receiveMessageRequest><ns1:userID>59u1</ns1:userID><ns1:password>UDU5dTE=</ns1:password><ns1:xmlMsg>&lt;MensajeABDCP xsi:noNamespaceSchemaLocation="SP.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;&#13;
+                           &lt;CabeceraMensaje&gt;             &#13;
+                                   &lt;IdentificadorMensaje&gt;59201407173127472&lt;/IdentificadorMensaje&gt;&#13;
+                                   &lt;Remitente&gt;59&lt;/Remitente&gt;&#13;
+                                   &lt;Destinatario&gt;00&lt;/Destinatario&gt;&#13;
+                                   &lt;FechaCreacionMensaje&gt;20140717114429&lt;/FechaCreacionMensaje&gt;&#13;
+                                   &lt;IdentificadorProceso&gt;59201407170555483&lt;/IdentificadorProceso&gt;&#13;
+                           &lt;/CabeceraMensaje&gt;&#13;
+                   &lt;CuerpoMensaje IdMensaje="ANCP"&gt;&#13;
+        &lt;AsignacionNumeroConsultaPrevia&gt;&#13;
+            &lt;IdentificacionSolicitud&gt;59201407160507191&lt;/IdentificacionSolicitud&gt;&#13;
+            &lt;FechaRecepcionMensajeAnterior&gt;20140716184952&lt;/FechaRecepcionMensajeAnterior&gt;&#13;
+            &lt;FechaReferenciaABDCP&gt;20140716184957&lt;/FechaReferenciaABDCP&gt;&#13;
+            &lt;Numeracion&gt;17200881&lt;/Numeracion&gt;&#13;
+        &lt;/AsignacionNumeroConsultaPrevia&gt;&#13;
+    &lt;/CuerpoMensaje&gt;&#13;
+                &lt;/MensajeABDCP&gt;</ns1:xmlMsg></ns1:receiveMessageRequest></env:Body></env:Envelope>

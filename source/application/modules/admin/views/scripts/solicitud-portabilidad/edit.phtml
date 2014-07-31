@@ -1,0 +1,130 @@
+<h3 class="admin-title">(SP) Historial de Solicitud Portabilidad</h3>
+<?php $this->getMesseger();?>
+<div class="ctn-back">
+    <a title="Volver al listado de Blogs" href="/sp">« Volver al listado de Solicitud Portabilidad</a>
+</div>
+<div class="frm-panel">
+    <div class="frm-head">
+        <h2><span class="icTable"></span>Detalle Asignación de Número de Solicitud de Portabilidad  (ANS)</h2>
+    </div>
+    <table id="datatable" class="display dataTable" cellspacing="0" cellpadding="0" border="0" aria-describedby="datatable_info">
+        <thead>
+            <tr>
+                <th>IdentificacionSolicitud</th>
+                <th>FechaRecepcionMensajeAnterior</th>
+                <th>FechaReferenciaABDCP</th>
+                <th>Numeracion</th>
+            </tr>
+            <tr>
+                <td><?php echo $this->ans['IdentificacionSolicitud']; ?></td>
+                <td><?php echo $this->ans['FechaRecepcionMensajeAnterior']; ?></td>
+                <td><?php echo $this->ans['FechaReferenciaABDCP']; ?></td>
+                <td><?php echo $this->ans['Numeracion']; ?></td>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+<br><br>
+<?php  if(isset($this->rabdcp)) { ?>
+<div class="frm-panel">
+    <div class="frm-head">
+        <h2><span class="icTable"></span>Detalle Solicitud de Portabilidad Rechazada por el ABDCP  (RABDCP)</h2>
+    </div>
+     <table id="datatable" class="display dataTable" cellspacing="0" cellpadding="0" border="0" aria-describedby="datatable_info">
+       <thead>
+            <tr>
+                <th>IdentificacionSolicitud</th>
+                <th>CausaRechazo</th>
+                <th>Numeracion</th>
+            </tr>
+             <tr>
+                <td><?php echo $this->rabdcp['IdentificacionSolicitud']; ?></td>
+                <td><?php echo $this->rabdcp['CausaRechazo']; ?></td>
+                <td><?php echo $this->rabdcp['Numeracion']; ?></td>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+<br><br>
+<?php } ?>
+<?php  if(isset($this->Spr)) { ?>
+<div class="frm-panel">
+    <div class="frm-head">
+        <h2><span class="icTable"></span>Detalle Solicitud de Portabilidad Procedente  (SPR)</h2>
+        <?php  if(!isset($this->pep)) { ?>
+       <a class="btn-admin" title="fecha limite de programación: <?php echo $this->Spr['FechaLimiteProgramacionPortabilidad']; ?>" href="/sp/schedule?id=<?php echo $this->ans['idtAns']; ?>">Programación de Portabilidad</a>
+        <?php } ?>
+    </div>
+     <table id="datatable" class="display dataTable" cellspacing="0" cellpadding="0" border="0" aria-describedby="datatable_info">
+       <thead>
+            <tr>
+                <th>IdentificadorProceso</th>
+                <th>FechaLimiteProgramacionPortabilidad</th>
+                <th>FechaLimiteEjecucionPortabilidad</th>
+                 <th>FechaReferenciaABDCP</th>
+            </tr>
+             <tr>
+                <td><?php echo $this->Spr['IdentificadorProceso']; ?></td>
+                <td><?php echo $this->Spr['FechaLimiteProgramacionPortabilidad']; ?></td>
+                <td><?php echo $this->Spr['FechaLimiteEjecucionPortabilidad']; ?></td>
+                <td><?php echo $this->Spr['FechaReferenciaABDCP']; ?></td>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+<?php } ?>
+<br><br>
+<?php  if(isset($this->pep)) { ?>
+<div class="frm-panel">
+    <div class="frm-head">
+        <h2><span class="icTable"></span>Detalle Programada para Ejecutar Portabilidad (PEP )</h2>
+    </div>
+     <table id="datatable" class="display dataTable" cellspacing="0" cellpadding="0" border="0" aria-describedby="datatable_info">
+       <thead>
+            <tr>
+                <th>IdentificadorProceso</th>
+                <th>FechaEjecucionPortabilidad</th>
+                <th>FechaCreacionMensaje</th>
+            </tr>
+             <tr>
+                <td><?php echo $this->pep['IdentificadorProceso']; ?></td>
+                <td><?php echo $this->pep['FechaEjecucionPortabilidad']; ?></td>
+                <td><?php echo $this->pep['FechaCreacionMensaje']; ?></td>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+<br><br>
+<?php } ?>
+<?php  if(isset($this->flep)) { ?>
+<div class="frm-panel">
+    <div class="frm-head">
+        <h2><span class="icTable"></span>Detalle Fuera del Límite para Ejecutar la Portabilidad  (FLEP )</h2>
+    </div>
+     <table id="datatable" class="display dataTable" cellspacing="0" cellpadding="0" border="0" aria-describedby="datatable_info">
+       <thead>
+            <tr>
+                <th>IdentificadorProceso</th>
+                <th>FechaLimiteProgramacionPortabilidad</th>
+                <th>FechaLimiteEjecucionPortabilidad</th>
+            </tr>
+             <tr>
+                <td><?php echo $this->flep['IdentificadorProceso']; ?></td>
+                <td><?php echo $this->flep['FechaLimiteProgramacionPortabilidad']; ?></td>
+                <td><?php echo $this->flep['FechaLimiteEjecucionPortabilidad']; ?></td>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+<br><br>
+<?php } ?>

@@ -1,0 +1,37 @@
+stdClass Object
+(
+    [userID] => 59u1
+    [password] => UDU5dTE=
+    [xmlMsg] => <MensajeABDCP xsi:noNamespaceSchemaLocation="SP.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                           <CabeceraMensaje>             
+                                   <IdentificadorMensaje>59201407177988864</IdentificadorMensaje>
+                                   <Remitente>59</Remitente>
+                                   <Destinatario>00</Destinatario>
+                                   <FechaCreacionMensaje>20140717123237</FechaCreacionMensaje>
+                                   <IdentificadorProceso>59201407170527404</IdentificadorProceso>
+                           </CabeceraMensaje>
+                   <CuerpoMensaje IdMensaje="CP">
+                        <ConsultaPrevia>
+                            <CodigoReceptor>59</CodigoReceptor>
+                            <CodigoCedente>38</CodigoCedente>
+                            <TipoDocumentoIdentidad>05</TipoDocumentoIdentidad>
+                            <NumeroDocumentoIdentidad>1</NumeroDocumentoIdentidad>
+                            <CantidadNumeraciones>1</CantidadNumeraciones>
+                            <NumeracionSolicitada>
+                                  <RangoNumeracion>
+                                    <InicioRango>17200881</InicioRango>
+                                    <FinalRango>17200881</FinalRango>
+                                    <TipoPortabilidad>01</TipoPortabilidad>
+                                  </RangoNumeracion>
+                            </NumeracionSolicitada>
+                            <Observaciones></Observaciones>
+                            <NombreContacto>Santiago</NombreContacto>
+                            <EmailContacto>a@a.com</EmailContacto>
+                            <TelefonoContacto>73269990000</TelefonoContacto>
+                            <FaxContacto>73269990001</FaxContacto>
+                            <TipoServicio>2</TipoServicio>
+                            <Cliente>2</Cliente>
+                        </ConsultaPrevia>
+                    </CuerpoMensaje>
+                </MensajeABDCP>
+)

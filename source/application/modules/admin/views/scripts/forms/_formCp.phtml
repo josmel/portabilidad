@@ -1,0 +1,91 @@
+<h3 class="admin-title"><?php echo $this->element->getView()->titulo?></h3>
+<?php $this->getMesseger();?>
+<div class="ctn-back">
+    <a title="Volver al listado de Blogs" href="/cp">« Volver al listado de Cosultas Previas</a>
+</div>
+<div class="frm-panel">
+
+    <form id="frm-article" action="<?php echo $this->element->getView()->action?>" 
+          method="post" Enctype="multipart/form-data">
+        
+        <div class="control-group">
+            <label class="control-label" for="CodigoCedente">CodigoCedente:</label>
+            <div class="controls">
+                <?php echo $this->element->CodigoCedente; ?>
+            </div>
+	</div>
+         <div class="control-group">
+            <label class="control-label" for="TipoDocumentoIdentidad">TipoDocumentoIdentidad:</label>
+            <div class="controls">
+                <?php echo $this->element->TipoDocumentoIdentidad; ?>
+            </div>
+	</div>
+         <div class="control-group">
+            <label class="control-label" for="NumeroDocumentoIdentidad">NumeroDocumentoIdentidad:</label>
+            <div class="controls">
+                <?php echo $this->element->NumeroDocumentoIdentidad; ?>
+            </div>
+	</div>
+        
+         <div class="control-group">
+            <label class="control-label" for="CantidadNumeraciones">CantidadNumeraciones:</label>
+            <div class="controls">
+                <?php echo $this->element->CantidadNumeraciones; ?>
+            </div>
+	</div>
+         <div class="control-group">
+            <label class="control-label" for="NumeracionSolicitada">NumeracionSolicitada:</label>
+            <div class="controls">
+                <?php echo $this->element->NumeracionSolicitada; ?>
+            </div>
+	</div>
+        <div class="control-group">
+            <label class="control-label" for="TipoPortabilidad">TipoPortabilidad:</label>
+            <div class="controls">
+                <?php echo $this->element->TipoPortabilidad; ?>
+            </div>
+	</div>
+         <div class="control-group">
+            <label class="control-label" for="NombreContacto">NombreContacto:</label>
+            <div class="controls">
+                <?php echo $this->element->NombreContacto; ?>
+            </div>
+	</div>
+         <div class="control-group">
+            <label class="control-label" for="EmailContacto">EmailContacto:</label>
+            <div class="controls">
+                <?php echo $this->element->EmailContacto; ?>
+            </div>
+	</div>
+         <div class="control-group">
+            <label class="control-label" for="TelefonoContacto">TelefonoContacto:</label>
+            <div class="controls">
+                <?php echo $this->element->TelefonoContacto; ?>
+            </div>
+	</div>
+         <div class="control-group">
+            <label class="control-label" for="FaxContacto">FaxContacto:</label>
+            <div class="controls">
+                <?php echo $this->element->FaxContacto; ?>
+            </div>
+	</div>
+         <div class="control-group">
+            <label class="control-label" for="TipoServicio">TipoServicio:</label>
+            <div class="controls">
+                <?php echo $this->element->TipoServicio; ?>
+            </div>
+	</div>
+         <div class="control-group">
+            <label class="control-label" for="Cliente">Cliente:</label>
+            <div class="controls">
+                <?php echo $this->element->Cliente; ?>
+            </div>
+	</div>
+        
+	<div class="control-group last">
+            <div class="control">
+                <button class="btn-admin" type="submit"><?php echo $this->element->getView()->submit?></button>
+            </div>
+	</div>
+   </form>
+</div>

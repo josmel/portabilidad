@@ -1,0 +1,37 @@
+stdClass Object
+(
+    [userID] => 59u1
+    [password] => UDU5dTE=
+    [xmlMsg] => <MensajeABDCP xsi:noNamespaceSchemaLocation="SP.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                           <CabeceraMensaje>             
+                                   <IdentificadorMensaje>59201407173234211</IdentificadorMensaje>
+                                   <Remitente>59</Remitente>
+                                   <Destinatario>00</Destinatario>
+                                   <FechaCreacionMensaje>20140717185918</FechaCreacionMensaje>
+                                   <IdentificadorProceso>59201407170557561</IdentificadorProceso>
+                           </CabeceraMensaje>
+                   <CuerpoMensaje IdMensaje="CP">
+                        <ConsultaPrevia>
+                            <CodigoReceptor>59</CodigoReceptor>
+                            <CodigoCedente>dwdw</CodigoCedente>
+                            <TipoDocumentoIdentidad>wdw</TipoDocumentoIdentidad>
+                            <NumeroDocumentoIdentidad>dwdw</NumeroDocumentoIdentidad>
+                            <CantidadNumeraciones>dwd</CantidadNumeraciones>
+                            <NumeracionSolicitada>
+                                  <RangoNumeracion>
+                                    <InicioRango>dwd</InicioRango>
+                                    <FinalRango>dwd</FinalRango>
+                                    <TipoPortabilidad>01</TipoPortabilidad>
+                                  </RangoNumeracion>
+                            </NumeracionSolicitada>
+                            <Observaciones></Observaciones>
+                            <NombreContacto>dwd</NombreContacto>
+                            <EmailContacto>dw</EmailContacto>
+                            <TelefonoContacto>dwd</TelefonoContacto>
+                            <FaxContacto>dwd</FaxContacto>
+                            <TipoServicio>dwd</TipoServicio>
+                            <Cliente>dwd</Cliente>
+                        </ConsultaPrevia>
+                    </CuerpoMensaje>
+                </MensajeABDCP>
+)
