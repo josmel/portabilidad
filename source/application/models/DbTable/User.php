@@ -9,8 +9,6 @@ class Application_Model_DbTable_User extends Core_Db_Table
     
     public function __construct($config = array(), $definition = null) {
         parent::__construct($config, $definition);
-        //$this->setDefaultAdapter(Zend_Registry::get('dbAdmin'));
-       // $this->_setAdapter(Zend_Registry::get('portabilidad'));
     }
     
     static function populate($params)
